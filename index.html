@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Community Church - A Place to Belong</title>
+    <meta name="description" content="Welcome to Grace Community Church. Join us for worship, fellowship, and spiritual growth.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="website icon" type="jpg" href="images/logo.jpg">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p><i class="fas fa-bullhorn"></i> Join us for Easter Sunday Service - April 9th at 9:00 AM</p>
+            <button class="close-announcement">&times;</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo2.jpg" alt="Grace Community Church Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Grace Community Church</h1>
+                    <p>Living by Faith, Growing in Grace</p>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#ministries">Ministries <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#children">Children</a></li>
+                            <li><a href="#youth">Youth</a></li>
+                            <li><a href="#adults">Adults</a></li>
+                            <li><a href="#seniors">Seniors</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#sermons">Sermons</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#give">Give</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="#services" class="btn btn-primary">Service Times</a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/exterior.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Welcome Home</h2>
+                        <p>Wherever you are on your spiritual journey, you're welcome here</p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-large">Join Us Sunday</a>
+                            <a href="#new-here" class="btn btn-large btn-outline">I'm New Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/exterior.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Growing Together</h2>
+                        <p>Join one of our small groups and build meaningful relationships</p>
+                        <div class="hero-buttons">
+                            <a href="#small-groups" class="btn btn-large">Find a Group</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" 
+     style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/exterior.jpg');
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           min-height: 100vh;">
+     <div class="container">
+          <div class="hero-content">
+               <h2>Serving Our Community</h2>
+               <p>Discover opportunities to make a difference in people's lives</p>
+               <div class="hero-buttons">
+                    <a href="#outreach" class="btn btn-large">Serve With Us</a>
+               </div>
+          </div>
+     </div>
+</div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Quick Info Bar -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                    <h4>Service Times</h4>
+                    <p>Sunday 9:00 AM & 11:00 AM</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Location</h4>
+                    <p>123 Faith Avenue, Springfield</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-church"></i>
+                <div>
+                    <h4>What to Expect</h4>
+                    <p>Casual atmosphere, passionate worship</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Church</h2>
+                <p>Discover who we are and what we believe</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-cross"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To lead people into a growing relationship with Jesus Christ through authentic worship, intentional discipleship, and compassionate service.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be a thriving, multi-generational community that transforms lives through the power of the Gospel and impacts our city for Christ.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <p>Biblical truth, authentic relationships, spiritual growth, generous living, and serving others with compassion.</p>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 1985, Grace Community Church began as a small Bible study in a living room with a vision to reach the growing suburban community. Through God's faithfulness, we've grown into a vibrant congregation serving thousands each week.</p>
+                    <p>Our commitment remains the same - to share the life-changing message of Jesus Christ in relevant ways that connect with people where they are.</p>
+                    <a href="#history" class="btn">Learn More About Our History</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/old.jpg" alt="Grace Community Church early days">
+                    <div class="image-caption">Our original building dedication in 1988</div>
+                </div>
+            </div>
+            
+            <div class="beliefs-section">
+                <h3>Our Core Beliefs</h3>
+                <div class="beliefs-accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>The Bible</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We believe the Bible is the inspired, infallible, authoritative Word of God and the final authority for faith and life.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>God</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We believe in one God, eternally existing in three persons: Father, Son, and Holy Spirit.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Jesus Christ</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We believe in the deity of Christ, His virgin birth, sinless life, miracles, atoning death, bodily resurrection, ascension, and personal return.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Salvation</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We believe salvation is by grace through faith in Christ alone, not by works, and results in a transformed life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Times & Location</h2>
+                <p>Join us for worship and fellowship</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Sunday Morning Worship</h3>
+                    <p class="service-time">9:00 AM & 11:00 AM</p>
+                    <p class="service-description">Our main worship services with contemporary music and biblical teaching.</p>
+                    <div class="service-notes">
+                        <p><i class="fas fa-child"></i> Children's programs available</p>
+                        <p><i class="fas fa-wheelchair"></i> Wheelchair accessible</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bible"></i>
+                    </div>
+                    <h3>Wednesday Bible Study</h3>
+                    <p class="service-time">7:00 PM - 8:30 PM</p>
+                    <p class="service-description">Midweek gathering for in-depth Bible study and prayer.</p>
+                    <div class="service-notes">
+                        <p><i class="fas fa-utensils"></i> Dinner served at 6:15 PM</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-praying-hands"></i>
+                    </div>
+                    <h3>Friday Prayer Meeting</h3>
+                    <p class="service-time">7:00 PM - 8:00 PM</p>
+                    <p class="service-description">Corporate prayer for our church, community, and world.</p>
+                </div>
+            </div>
+            
+            <div class="location-section">
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9105442608566!2d36.779416474165984!3d-1.2222461355577987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1802009cd457%3A0x3e5ccad8c81cba19!2sPCEA%20NYARI%20CHURCH!5e0!3m2!1sen!2ske!4v1743370478997!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-info">
+                    <h3>Our Location</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue<br>Springfield, ST 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@gracechurch.org</p>
+                    </address>
+                    
+                    <h4>Parking Information</h4>
+                    <p>Guest parking is available in the front lot. Additional parking is available in the rear lot and street parking on Faith Avenue.</p>
+                    
+                    <h4>Public Transportation</h4>
+                    <p>Bus routes 12 and 45 stop directly in front of the church. The nearest subway station is Central Square (0.3 miles away).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Here Section -->
+    <section id="new-here" class="new-here-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>New Here?</h2>
+                <p>We're so glad you're considering visiting Grace Community Church</p>
+            </div>
+            
+            <div class="new-here-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Plan Your Visit</h3>
+                    <p>Check our service times and location. Services last about 90 minutes. Dress is casual - come as you are!</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Arrive Early</h3>
+                    <p>Arrive 15 minutes early to park and check in children. Our greeters will welcome you and answer any questions.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Enjoy the Service</h3>
+                    <p>Experience uplifting worship and practical biblical teaching. Don't feel pressured to participate - just observe if you prefer.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Visit the Welcome Center</h3>
+                    <p>After service, stop by our Welcome Center for a free gift and to learn more about our church.</p>
+                </div>
+            </div>
+            
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>What should I wear?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We want you to feel comfortable. Most people dress casually in jeans or business casual attire. Some prefer to dress up, while others come in shorts and t-shirts. Wear whatever makes you comfortable!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>What about my kids?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We have excellent programs for children of all ages. Our nursery cares for infants through 2 years old. GraceKids serves children ages 3 through 5th grade with age-appropriate lessons and activities. All our children's workers are background-checked and trained.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Will I be singled out as a visitor?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>No, we won't embarrass you or ask you to stand up. We do have a connection card in the bulletin that you can fill out if you'd like more information, but there's no pressure to do so.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="next-steps">
+                <h3>Ready to Take the Next Step?</h3>
+                <div class="next-steps-grid">
+                    <a href="#contact" class="next-step-card">
+                        <i class="fas fa-coffee"></i>
+                        <h4>Meet for Coffee</h4>
+                        <p>Have questions? Let's meet for coffee with one of our pastors.</p>
+                    </a>
+                    <a href="#small-groups" class="next-step-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Join a Small Group</h4>
+                        <p>Connect with others in a small group setting.</p>
+                    </a>
+                    <a href="#events" class="next-step-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Attend an Event</h4>
+                        <p>Check out our upcoming events and activities.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ministries Section -->
+    <section id="ministries" class="ministries-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Ministries</h2>
+                <p>Find your place to connect, grow, and serve</p>
+            </div>
+            
+            <div class="ministries-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="children">Children</button>
+                    <button class="tab-btn" data-tab="youth">Youth</button>
+                    <button class="tab-btn" data-tab="adults">Adults</button>
+                    <button class="tab-btn" data-tab="seniors">Seniors</button>
+                    <button class="tab-btn" data-tab="outreach">Outreach</button>
+                </div>
+                
+                <div class="tab-content active" id="children">
+                    <div class="ministry-detail">
+                        <div class="ministry-info">
+                            <h3>GraceKids</h3>
+                            <p class="ministry-motto">"Training up children in the way they should go"</p>
+                            <p>Our children's ministry provides a safe, fun environment where kids can learn about Jesus at their level. We use creative Bible teaching, worship, and activities to help children grow in their faith.</p>
+                            
+                            <div class="ministry-programs">
+                                <h4>Programs</h4>
+                                <ul>
+                                    <li><strong>Nursery</strong> (0-2 years) - Sundays during all services</li>
+                                    <li><strong>Preschool</strong> (3-5 years) - Sundays at 9:00 & 11:00 AM</li>
+                                    <li><strong>Elementary</strong> (K-5th grade) - Sundays at 9:00 & 11:00 AM</li>
+                                    <li><strong>AWANA Clubs</strong> - Wednesdays at 6:30 PM (September-May)</li>
+                                    <li><strong>Vacation Bible School</strong> - One week each summer</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="ministry-leaders">
+                                <h4>Ministry Leaders</h4>
+                                <div class="leaders-grid">
+                                    <div class="leader-card">
+                                        <img src="images/rev.jpg" alt="Sarah Johnson">
+                                        <h5>Sarah Johnson</h5>
+                                        <p>Children's Ministry Director</p>
+                                    </div>
+                                    <div class="leader-card">
+                                        <img src="images/leader2.jpg" alt="Michael Chen">
+                                        <h5>Michael Chen</h5>
+                                        <p>Elementary Coordinator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ministry-image">
+                            <img src="images/children-ministry.jpg" alt="GraceKids children's ministry">
+                            <a href="#children-ministry" class="btn">Learn More About GraceKids</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="youth">
+                    <!-- Youth Ministry Content -->
+                </div>
+                
+                <!-- Other ministry tabs content would go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermons Section -->
+    <section id="sermons" class="sermons-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Sermons</h2>
+                <p>Watch or listen to our latest messages</p>
+            </div>
+            
+            <div class="sermon-filters">
+                <button class="filter-btn active" data-filter="all">All Sermons</button>
+                <button class="filter-btn" data-filter="series">By Series</button>
+                <button class="filter-btn" data-filter="speaker">By Speaker</button>
+                <button class="filter-btn" data-filter="topic">By Topic</button>
+            </div>
+            
+            <div class="sermons-grid">
+                <div class="sermon-card" data-series="faith" data-speaker="pastor-john" data-topic="faith">
+                    <div class="sermon-image">
+                        <img src="images/sermon1.jpg" alt="Living By Faith sermon">
+                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                    </div>
+                    <div class="sermon-info">
+                        <span class="sermon-date">June 4, 2023</span>
+                        <h3>Living By Faith</h3>
+                        <p class="sermon-series">Faith That Works series</p>
+                        <p class="sermon-speaker">Pastor John Smith</p>
+                        <div class="sermon-actions">
+                            <a href="#" class="sermon-link"><i class="fas fa-play"></i> Watch</a>
+                            <a href="#" class="sermon-link"><i class="fas fa-headphones"></i> Listen</a>
+                            <a href="#" class="sermon-link"><i class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional sermon cards would go here -->
+            </div>
+            
+            <div class="sermon-archive">
+                <h3>Sermon Archive</h3>
+                <p>Browse our collection of past sermons and teaching series</p>
+                <a href="#archive" class="btn btn-outline">View All Sermons</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Join us for these special gatherings</p>
+            </div>
+            
+            <div class="events-calendar">
+                <div class="calendar-header">
+                    <button class="calendar-nav" id="prev-month"><i class="fas fa-chevron-left"></i></button>
+                    <h3 id="current-month">June 2023</h3>
+                    <button class="calendar-nav" id="next-month"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="calendar-grid" id="calendar-days">
+                    <!-- Calendar days will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="events-list">
+                <div class="event-card featured">
+                    <div class="event-date">
+                        <span class="event-day">12</span>
+                        <span class="event-month">Jun</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Summer Picnic & Baptism</h3>
+                        <p class="event-time"><i class="fas fa-clock"></i> 4:00 PM - 8:00 PM</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> City Park Pavilion</p>
+                        <p class="event-description">Join us for our annual church picnic with food, games, and a special baptism service in the lake.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn btn-small">More Info</a>
+                            <a href="#" class="btn btn-small btn-outline">RSVP</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional event cards would go here -->
+            </div>
+            
+            <div class="events-cta">
+                <p>Want to stay updated on all our events?</p>
+                <a href="#newsletter" class="btn">Subscribe to Our Newsletter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Give Section -->
+    <section id="give" class="give-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Generosity Changes Lives</h2>
+                <p>Your giving makes ministry possible</p>
+            </div>
+            
+            <div class="give-grid">
+                <div class="give-info">
+                    <h3>Why We Give</h3>
+                    <p>Generosity is at the heart of our faith. When we give, we participate in God's work of transforming lives locally and globally.</p>
+                    
+                    <div class="giving-options">
+                        <h4>Ways to Give</h4>
+                        <ul>
+                            <li><i class="fas fa-money-bill-wave"></i> <strong>Sunday Offering</strong> - During our worship services</li>
+                            <li><i class="fas fa-mobile-alt"></i> <strong>Text to Give</strong> - Text "GIVE" to (555) 123-4567</li>
+                            <li><i class="fas fa-laptop"></i> <strong>Online Giving</strong> - Secure giving through our website</li>
+                            <li><i class="fas fa-envelope"></i> <strong>Mail a Check</strong> - 123 Faith Avenue, Springfield, ST 12345</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="financial-transparency">
+                        <h4>Financial Transparency</h4>
+                        <p>We are committed to wise stewardship of God's resources. Our finances are reviewed annually by an independent accounting firm.</p>
+                        <a href="#financials" class="btn btn-outline">View Annual Report</a>
+                    </div>
+                </div>
+                
+                <div class="give-form">
+                    <h3>Give Online</h3>
+                    <form id="donation-form">
+                        <div class="form-group">
+                            <label for="amount">Donation Amount</label>
+                            <div class="amount-options">
+                                <button type="button" class="amount-option" data-amount="25">$25</button>
+                                <button type="button" class="amount-option" data-amount="50">$50</button>
+                                <button type="button" class="amount-option" data-amount="100">$100</button>
+                                <button type="button" class="amount-option" data-amount="250">$250</button>
+                                <button type="button" class="amount-option" data-amount="500">$500</button>
+                                <button type="button" class="amount-option" data-amount="other">Other</button>
+                            </div>
+                            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="frequency">Frequency</label>
+                            <select id="frequency" name="frequency">
+                                <option value="one-time">One-Time Gift</option>
+                                <option value="weekly">Weekly</option>
+                                <option value="monthly">Monthly</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fund">Fund</label>
+                            <select id="fund" name="fund">
+                                <option value="general">General Fund</option>
+                                <option value="missions">Missions</option>
+                                <option value="building">Building Fund</option>
+                                <option value="benevolence">Benevolence</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-block">Continue to Payment</button>
+                        
+                        <div class="secure-giving">
+                            <i class="fas fa-lock"></i>
+                            <span>Secure Giving Powered by Pushpay</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                            <p>Office hours: Monday-Friday, 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@gracechurch.org (General Inquiries)</p>
+                            <p>prayer@gracechurch.org (Prayer Requests)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <address>
+                                123 Faith Avenue<br>
+                                Springfield, ST 12345
+                            </address>
+                        </div>
+                    </div>
+                    
+                    <div class="staff-contacts">
+                        <h4>Staff Contacts</h4>
+                        <ul>
+                            <li><strong>Pastor John Smith</strong> - pastorjohn@gracechurch.org</li>
+                            <li><strong>Sarah Johnson (Children's Ministry)</strong> - sarah@gracechurch.org</li>
+                            <li><strong>Michael Chen (Youth Ministry)</strong> - michael@gracechurch.org</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="office-hours">
+                        <h4>Office Hours</h4>
+                        <ul>
+                            <li><strong>Monday-Thursday:</strong> 9:00 AM - 5:00 PM</li>
+                            <li><strong>Friday:</strong> 9:00 AM - 1:00 PM</li>
+                            <li><strong>Saturday:</strong> Closed</li>
+                            <li><strong>Sunday:</strong> 8:00 AM - 1:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="prayer">Prayer Request</option>
+                                <option value="visitor">I'm New Here</option>
+                                <option value="membership">Membership Information</option>
+                                <option value="event">Event Question</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h3>Stay Connected</h3>
+                    <p>Subscribe to our weekly newsletter for updates, events, and encouragement.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo-white.png" alt="Grace Community Church" class="footer-logo">
+                    <p>Living by Faith, Growing in Grace</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/pceanyariparish"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#ministries">Ministries</a></li>
+                        <li><a href="#sermons">Sermons</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#give">Give</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#devotionals">Devotionals</a></li>
+                        <li><a href="#prayer">Prayer Requests</a></li>
+                        <li><a href="#bible-studies">Bible Studies</a></li>
+                        <li><a href="#library">Media Library</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <address>
+                        123 Faith Avenue<br>
+                        Springfield, ST 12345<br><br>
+                        <i class="fas fa-phone"></i> (555) 123-4567<br>
+                        <i class="fas fa-envelope"></i> info@gracechurch.org
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Grace Community Church. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
