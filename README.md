@@ -1,5 +1,6 @@
 # Grace Community Church Website
 https://nyari-jjumaaas-projects.vercel.app/
+https://nyari.vercel.app/
 
 ## Overview
 
