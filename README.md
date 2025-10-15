@@ -1,10 +1,10 @@
-# Grace Community Church Website
+# PCEA NYARI Church Website
 https://nyari-jjumaaas-projects.vercel.app/
 https://nyari.vercel.app/
 
 ## Overview
 
-This is the official website for Grace Community Church, built with modern web technologies to provide an engaging and accessible experience for visitors. The site features responsive design, accessibility compliance, and interactive elements to connect with the church community.
+This is the official website for PCEA NYARI Church, built with modern web technologies to provide an engaging and accessible experience for visitors. The site features responsive design, accessibility compliance, and interactive elements to connect with the church community.
 
 ## Features
 
@@ -51,12 +51,12 @@ For development:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/grace-community-church.git
+   git clone https://github.com/Jjumaaa/Nyari.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd grace-community-church
+   cd Nyari
    ```
 
 ## Customization
